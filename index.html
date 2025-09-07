@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Calculadora IRPF 2025</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+  <div class="container">
+    <h2>Calculadora IRPF 2025</h2>
+    <input type="number" id="salario" placeholder="Digite seu salário mensal (R$)">
+    <br>
+    <button class="btn-calc" onclick="calcular()">Calcular</button>
+    <button class="btn-clear" onclick="limpar()">Limpar</button>
+    <div class="result" id="resultado"></div>
+  </div>
+
+  <script src="./app.js"></script>
 </body>
 </html>
